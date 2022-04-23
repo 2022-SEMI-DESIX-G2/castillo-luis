@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>>/Laboratorio No.2/Luis Castillo.exe</title>
+    </head>
+    <body>
+        <h1>¿Qué es Javascript y en qué se asemeja a Java?</h1>
+        <p>
+            Javascript apareció por primera vez en 1995 bajo el nombre de Mocha, poco después se renombró LiveScript para terminar llamándose Javascript básicamente por una estrategia de Marketing. 
+            <br>
+            Esta similitud en el nombre ha generado mucha confusión entre los conceptos de Java y JavaScript, pero la realidad es que no tienen que ver nada el uno con el otro a nivel de lenguaje de programación. 
+            <br>
+            <br>
+            Java crea aplicaciones que tras ser compiladas (traducidas a código ejecutable) se pueden ejecutar en navegadores a través de una máquina virtual, mientras que Javascript se ejecuta nativamente en los navegadores sin necesidad de ninguna máquina virtual.
+            <br>
+            <br>
+            Java es un lenguaje fuertemente tipado y Javascript es débilmente tipado. Esto significa que las variables en Java tienen un determinado tipo y no pueden modificarse, por el contrario, en Javascript una misma variable puede variar el tipo de su contenido en ejecución.
+            <br>
+            <br>
+            Java es un lenguaje de programación orientado a objetos puramente, y Javascript es un lenguaje basado en prototipos. A través de estos prototipos, se puede emular la programación orientada a objetos. 
+            Éstas, entre otras cosas, hacen de Java un lenguaje más pesado y robusto, mientras que Javascript presenta mayor versatilidad y flexibilidad.
+            <br>
+            <br>
+            Java es un lenguaje mayormente de servidor que permite ejecutar código en un navegador a través de máquinas virtuales. Javascript  nos sirve para crear código sólo de cliente, sólo de servidor, o de cliente y servidor pudiendo abarcar con un único lenguaje lo que se llama el Full Stack Development.
+        </p>
+        <script>
+            var n1 = 25;
+            var n2 = 96;
+            const string1 = "Hola ";
+            const string2 = "Mundo";
+            const pi = 3.1416;
+            const string3 = "este es el laboratorio No.2, luego de exitosamente crear nuestra cuenta en github, debemos subir este codigo al repositorio de la organizacion que a creado el profesor";
+            var myInfoObject = {
+                año: {año: 4},
+                nombre: {nombre: 'Luis'},
+                validar: {estado: true},
+                vacio: {}
+            };
+            console.log("Numero 1 = ",n1, " | Numero 2 = ", n2);
+            console.log("Suma de Numero 1 y Numero 2 = ",n1+n2);
+            console.log("Resta de Numero 1 y Numero 2 = ",n1-n2);
+            console.log("Multiplicacion de Numero 1 y Numero 2 = ",n1*n2);
+            console.log("Division de Numero 1 y Numero 2 = ",n1/n2);
+            console.log("String 1 = ",string1, " | String 2= ",string2);
+            console.log("Concatenacion de 2 palabras = ",string1+string3);
+            console.log("Constante 'PI' es de tipo = ",typeof(PI));
+            console.log("Constante 'EXPRESSION' es de tipo = ",typeof(string3));
+            console.log(myInfoObject);         
+        </script>
+    </body>
+</html>
