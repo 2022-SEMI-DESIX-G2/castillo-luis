@@ -1,6 +1,5 @@
 form {
-    width: 200px;
-    margin: 20px auto;
+    width: 100px;
 }
 
 input {
@@ -14,7 +13,7 @@ header {
 }
 
 nav{ 
-    background: lightskyblue; 
+    background: lightgray; 
 }
 nav ul li{
     float: left;
@@ -43,26 +42,13 @@ aside{
     border-radius: 4px;
     color: #000;
     text-align: center;
-    padding: 10px;
-    margin: 0 auto;
-    background-color: rgb(228, 24, 24);
+    padding: 100px;
+    margin: 0;
+    background-color: green;
     border: 1px solid black;
 }
 
-.poke-card::before {
-    content: '';
-    background: radial-gradient(rgb(85, 112, 210) 33%, transparent 33%);
-    background-size: 3px 3px;
-    border-radius: 4px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    z-index: -1;
-    border: 1px solid black;
-    
-}
+
 
 .poke-card-display {
     display: flex;
@@ -118,25 +104,9 @@ aside{
     border: 1px dashed rgb(71, 145, 210);
 }
 
-.poke-img {
-    width: 180px;
-    border-radius: 50%;
-    background-size: 5px 5px;
-    background: radial-gradient(rgb(255, 255, 255) 10%, transparent 60%, rgb(255, 0, 0) 50%);
-
-}
-.poke-img-back {
-    width: 180px;
-    border-radius: 50%;
-    background-size: 5px 5px;
-    background: radial-gradient(rgb(255, 255, 255) 10%, transparent 60%, rgb(255, 0, 0) 50%);
-}
-
 .poke-img-logo {
     width: 180px;
-    border-radius: 50%;
     background-size: 5px 5px;
-    background: radial-gradient(rgb(255, 255, 255) 10%, transparent 60%, rgb(255, 0, 0) 50%);
 }
 
 .btn-search {
