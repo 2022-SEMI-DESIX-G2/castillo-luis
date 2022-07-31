@@ -1,0 +1,16 @@
+{
+    "name": "proyecto_n_1",
+    "version": "0.0.1",
+    "description": "Proyecto No.1",
+    "main": "main.js",
+    "scripts": {
+      "test": "test"
+    },
+    "author": "Luis Castillo",
+    "license": "ISC",
+    "dependencies": {
+      "axios": "^0.27.2",
+      "express": "^4.18.1",
+      "thunder": "^0.2.0"
+    }
+  }
